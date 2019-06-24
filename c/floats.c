@@ -12,6 +12,6 @@ int main(void)
     float y = get_float ("y: ");
         
         
-    printf("x / y, %f\n", x / y);
+    printf("x / y, %.7f\n", x / y);//add .7 to get 7 decimal places
  
 }
